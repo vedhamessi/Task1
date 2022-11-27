@@ -8,15 +8,8 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="<?php echo base_url().'user' ?>">All Users</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <?php echo $_SESSION['User_info']['first_name']; ?>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="<?php echo base_url().'logout' ?>">Logout</a></li>
-          </ul>
-        </li>
+        </li class="nav-item">
+        <li><a class="nav-link" href="<?php echo base_url().'logout' ?>">Logout</a></li>
       </ul>
     </div>
   </div>
